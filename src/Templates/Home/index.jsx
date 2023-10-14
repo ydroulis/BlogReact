@@ -70,6 +70,7 @@ export const Home = () => {
   );
 };
 
+
 // CLASS COMPONENT
 
 // export class Home2 extends Component {

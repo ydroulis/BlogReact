@@ -1,3 +1,4 @@
+import Proptypes from 'prop-types';
 import './styles.css';
 
 export const PostCard = ({ title, body, cover }) => {
@@ -10,4 +11,10 @@ export const PostCard = ({ title, body, cover }) => {
       </div>
     </div>
   );
+};
+
+PostCard.propTypes = {
+  title: Proptypes.string.isRequired,
+  body: Proptypes.string.isRequired,
+  cover: Proptypes.string.isRequired,
 };
